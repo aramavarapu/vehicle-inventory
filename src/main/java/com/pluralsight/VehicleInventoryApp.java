@@ -13,7 +13,10 @@ public class VehicleInventoryApp {
 
         int count = 6;
 
-        System.out.println(vehicles[0]);
+
+        for (int index = 0; index < count; index = index + 1) {
+            System.out.println(vehicles[index]);
+        }
 
     }
     
