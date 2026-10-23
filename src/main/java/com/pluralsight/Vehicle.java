@@ -17,7 +17,7 @@ public class Vehicle {
     }
 
     public long getVehicleId() {
-        return this.vehicleId;
+        return vehicleId;
     }
 
     public void setVehicleId(long vehicleId) {
@@ -54,5 +54,20 @@ public class Vehicle {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Vehicle() {
+
+    }
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "vehicleId=" + vehicleId +
+                ", makeModel='" + makeModel + '\'' +
+                ", color='" + color + '\'' +
+                ", odometerReading=" + odometerReading +
+                ", price=" + price +
+                '}';
     }
 }
